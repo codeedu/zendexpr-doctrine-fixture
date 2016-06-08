@@ -1,0 +1,32 @@
+{
+    "name": "codeedu/zendexpr-doctrine-fixture",
+    "description": "Zend Expressive Library that provides Doctrine Data-Fixture functionality",
+    "type": "library",
+    "license": "MIT",
+    "keywords":[
+        "zend-expressive",
+        "expressive",
+        "doctrine",
+        "fixture"
+    ],
+    "authors": [
+        {
+            "name": "Luiz",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "doctrine/data-fixtures": "1.1.*",
+        "doctrine/orm": "~2.5",
+        "container-interop/container-interop": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeEdu\\": "src/"
+        }
+    }
+}
