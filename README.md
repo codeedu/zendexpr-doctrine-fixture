@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/codeedu/zendexpr-doctrine-fixture.svg?branch=master)](https://travis-ci.org/codeedu/zendexpr-doctrine-fixture)
+
 ## About
 
 This library provides integration with Zend Expressive and Doctrine Data Fixture. Also support PSR-11.
