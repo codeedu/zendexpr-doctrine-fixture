@@ -9,7 +9,7 @@ This library provides integration with Zend Expressive and Doctrine Data Fixture
 
 ##### Instalation
 ```sh
-composer require codeedu/zendexpr-doctrine-fixture:0.0.1
+composer require codeedu/zendexpr-doctrine-fixture:0.1.0
 ```
 
 ##### Registering Fixtures
