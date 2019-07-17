@@ -6,14 +6,15 @@ use CodeEdu\FixtureCommand;
 use Doctrine\ORM\EntityManagerInterface;
 use Interop\Container\ContainerInterface;
 use Symfony\Component\Console\Application;
+use PHPUnit\Framework\TestCase;
 
-class FixtureCommandTest extends \PHPUnit_Framework_TestCase
+class FixtureCommandTest extends TestCase
 {
 
     public function test_execute()
     {
-        $mockContainer = $this->getMock(ContainerInterface::class);
-        $mockEntityManager = $this->getMock(EntityManagerInterface::class);
+        $mockContainer = $this->createMock(ContainerInterface::class);
+        $mockEntityManager = $this->createMock(EntityManagerInterface::class);
         $application = new Application();
         $myCommand = new FixtureCommand($mockContainer);
         $myCommand->setEntityManager($mockEntityManager);
