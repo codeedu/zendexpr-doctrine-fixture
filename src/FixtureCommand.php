@@ -60,6 +60,7 @@ EOT
         }
         $executor->execute($loader->getFixtures(), $input->getOption('append'));
         $output->writeln("<info>Fixtures loaded!!</info>");
+        return 0;
     }
 
     public function setPath($paths)
